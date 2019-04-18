@@ -57,22 +57,24 @@ export default class Frameworks extends React.Component {
           <span>{template.niceName}</span>.
         </TagLine>
         <Grid>
-          <LoadInView style={{ height: 520 }}>
-            <iframe
-              src={`https://codesandbox.io/embed/${
-                template.shortid
-              }?fontsize=14`}
-              style={{
-                borderRadius: 4,
-                width: '100%',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-                border: 'none',
-                backgroundColor: theme.background2(),
-              }}
-              height={520}
-              title="sandbox"
-            />
-          </LoadInView>
+          <section>
+            <LoadInView style={{ height: 520 }}>
+              <iframe
+                src={`https://codesandbox.io/embed/${
+                  template.shortid
+                }?fontsize=14`}
+                style={{
+                  borderRadius: 4,
+                  width: '100%',
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+                  border: 'none',
+                  backgroundColor: theme.background2(),
+                }}
+                height={520}
+                title="sandbox"
+              />
+            </LoadInView>
+          </section>
           <Icons>
             <TemplateTitle>Templates</TemplateTitle>
             <section>
