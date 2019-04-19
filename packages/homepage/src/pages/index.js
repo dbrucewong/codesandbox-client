@@ -3,6 +3,7 @@ import RecentPublications from '../screens/home/RecentPublications';
 import Hero from '../screens/home/Hero';
 import Explore from '../screens/home/Explore';
 import Features from '../screens/home/Features';
+import Scale from '../screens/home/Scale';
 import TitleAndMetaTags from '../components/TitleAndMetaTags';
 import Layout from '../components/layout';
 import Frameworks from '../screens/home/Frameworks';
@@ -37,6 +38,7 @@ export default class HomePage extends React.Component {
         <Explore />
         <Frameworks />
         <Features />
+        <Scale />
         <RecentPublications />
       </Layout>
     );
