@@ -9,6 +9,7 @@ const specialCasesMap = {
   'package.json': 'npm',
   'sandbox.config.json': 'codesandbox',
   'now.json': 'now',
+  'netlify.toml': 'settings',
   'readme.md': 'readme',
   'contributing.md': 'contributing',
   'tsconfig.json': 'typescript',
@@ -18,6 +19,7 @@ const specialCasesMap = {
 
 const regexCasesMap = {
   markdown: /\.md$/,
+  markojs: /\.marko$/,
   yaml: /\.yml$/,
   react: /\.jsx$/,
   reason: /\.re$/,

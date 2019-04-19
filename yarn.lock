@@ -16262,6 +16262,18 @@ marked@^0.3.12, marked@^0.3.17, marked@^0.3.5, marked@^0.3.9:
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
+markty-toml@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/markty-toml/-/markty-toml-0.0.9.tgz#1ccc3d9336b98cbe2451569ae2648dbf26bf7ede"
+  integrity sha512-bMIzcRN4mmp5S6WFxor8THsi9xeCPupBfG+bjTCpN7g7ez33TAxqT7FhTfuBU94uIvrqgXT7af3P+eJW0XpGfg==
+  dependencies:
+    markty "0.0.4"
+
+markty@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/markty/-/markty-0.0.4.tgz#060f943bdc2275b676b1628335bd8a39ea44a8ee"
+  integrity sha512-V2g+PRfySY9zKL0n4NHuE2rK2daHuVrcdRaJ8Gfhy4IYwEb2NywCSqCrxrn2LSJQ+dXf2Gubqw9+kU5m7fXUJw==
+
 match-sorter@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/match-sorter/-/match-sorter-1.8.1.tgz#5b164e526c261dc8628db925430facbe0cd26614"
@@ -23950,10 +23962,10 @@ typedoc@^0.7.1:
     typedoc-default-themes "^0.5.0"
     typescript "2.3.4"
 
-typescript@*, typescript@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.2.tgz#9ed4e6475d906f589200193be056f5913caed481"
-  integrity sha512-Og2Vn6Mk7JAuWA1hQdDQN/Ekm/SchX80VzLhjKN9ETYrIepBFAd8PkOdOTK2nKt0FCkmMZKBJvQ1dV1gIxPu/A==
+typescript@*:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.4.tgz#aac4a08abecab8091a75f10842ffa0631818f785"
+  integrity sha512-xt5RsIRCEaf6+j9AyOBgvVuAec0i92rgCaS3S+UVf5Z/vF2Hvtsw08wtUTJqp4djwznoAgjSxeCcU4r+CcDBJA==
 
 typescript@2.3.4:
   version "2.3.4"
@@ -23969,6 +23981,11 @@ typescript@2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
   integrity sha512-p5TCYZDAO0m4G344hD+wx/LATebLWZNkkh2asWUFqSsD2OrDNhbAHuSjobrmsUmdzjJjEeZVU9g1h3O6vpstnw==
+
+typescript@3.3.4000:
+  version "3.3.4000"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
+  integrity sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
 
 typography-breakpoint-constants@^0.15.10:
   version "0.15.10"
